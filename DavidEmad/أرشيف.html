@@ -1,0 +1,72 @@
+<head>
+    <title>موقع فهمني الديني-أرشيف</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo-up.jpg">
+    <script>
+        function checkPassword() {
+            const correctPassword = "2025";
+            const enteredPassword = document.getElementById("passwordInput").value;
+
+            if (enteredPassword === correctPassword) {
+                document.getElementById("loginForm").style.display = "none";
+                document.getElementById("protected-content").style.display = "block";
+            } else {
+                alert("Incorrect password. Please try again. it is in footer");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="navibar">
+        <img src="logo-small.png"></img>
+        <a href="الرئيسيه.HTML"><button>الرئيسيه</button></a>
+        <a href="عنا.html"><button>عنا</button></a>
+        <a href="أرشيف.html"><button>أرشيف</button></a>
+        <a href="معلومات مطوله.HTML"><button>معلومات</button></a>
+        <img src="logo-small.png"></img>
+    </div>
+    <br>
+    <div id="loginForm" class="loginForm">
+        <button onclick="checkPassword()">أدخال</button>
+        <input type="password" id="passwordInput">
+        <label for="passwordInput">أدخل الرمز التالي:2025 للتحقق من الروبوتات</label>
+
+    </div>
+
+    <div id="protected-content" class="protected-content">
+        <h1> فهمني لشرح المجامع المسكونيه ال3</h1>
+        <br>
+        <h2>أرشيف</h2>
+        <br>
+        <p>صور</p>
+        <br>
+        <div class="gallery">
+            <img src="logo-up.jpg"></img>
+            <img src="logo-big.png"></img>
+            <img src="logo-small.png"></img>
+        </div>
+        <br>
+        <p>ميديا</p>
+        <br>
+        <div class="media">
+            <video src="الفيديو.mp4" controls></video>
+            <audio src="صوت المقال1.mp3" controls></audio>
+            <audio src="صوت المقال2.mp3" controls></audio>
+            <audio src="صوت المقال3.mp3" controls></audio>
+            <audio src="صوت المقال4.mp3" controls></audio>
+        </div>
+        <br>
+        <hr>
+        <a href="الرئيسيه.HTML">
+            <button>الرجوع إلي الرئيسيه</button>
+        </a>
+    </div>
+    <br>
+    <div class="footer">
+        <img src="logo-big.png"></img>
+        <h4>الموقع قيد الأنشاء,فقد يكون هناك بعض الأخطاء التقنيه</h4>
+        <h4>أذا كان هناك أي مشكله أو راي فقط أكتبها أسفل الرابط</h4>
+        <a href="https://forms.gle/CkHH611Q7WDxuY3b9">الفورم</a>
+        <h4>تحت رعايه قداسه البابا تواضروس التاني</h4>
+    </div>
+</body>
