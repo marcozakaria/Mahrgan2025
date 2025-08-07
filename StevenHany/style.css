@@ -16,3 +16,10 @@ body{
         width: 500;
         border-radius: 75px;  
         }
+        button{
+        background-color: green;
+        cursor: pointer;
+        width: 160;
+        height: 70;
+        font-size: 20;
+        }
