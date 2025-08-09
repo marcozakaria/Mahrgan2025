@@ -1,0 +1,48 @@
+
+               body {
+         background-color: lightblue;
+            text-align: center;
+               }
+       
+                  h1 {
+                           color: gray;
+                           background-color: lightblue;
+                     
+                  }
+
+                 p {
+                        text-align: center;
+                        color: green;
+                 }
+ 
+img {
+
+   width: 300;
+   border: 12px;
+}
+  
+button {
+      background-color: aqua;
+      color: azure;
+      border: none;
+      width: 140;
+      height: 45;
+      font-size: 16;
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+
+button:hover  {
+ background-color: darkblue;
+}
+
+.ABOUTME {
+        front-size: 18;
+        color: whitesmoke;
+}
+
+
+
+
+
