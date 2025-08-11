@@ -1,0 +1,10 @@
+body{ text-align: center;background-image: url("images (1).jpg");background-repeat: no-repeat;
+background-attachment: fixed;background-size: cover;}
+h2{color:darkblue;text-align:center;background-color: whitesmoke; }
+p{text-align: center;color:lightseagreen;font-size:20px;}
+button {background-color: aqua;color: black;width:175 ;height:45;border-radius:  10px;
+    font: size 17px;cursor:pointer ;border:none ; }
+button:hover{background-color: cornflowerblue;width:180 ;height:50 ; ;}
+img{width:500 ;height:250;border-radius:  25px; }
+.photes{height:52 ;width:85 ;}
+.photes :hover{height:54 ;width:87 ;}
