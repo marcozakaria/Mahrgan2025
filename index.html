@@ -15,7 +15,20 @@
 			height: 55;
 			font-size: 25px;
 		}
-		
+		div {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 15px;
+			 justify-content: center; 
+			   counter-reset: btn-counter;
+		}
+		div a {
+			counter-increment: btn-counter; /* increases counter for each <a> */
+		}
+		div a::before {
+			content: counter(btn-counter) ". "; /* adds number before text */
+			margin-right: 5px;
+		}
     </style>
     <head>
         <title>Mahrgan 2025</title>
@@ -34,113 +47,91 @@
 			<a href="DavidEmad/الرئيسيه.HTML">
 				<button class="btn btn-lg btn-primary">  ديفيد عماد عوض</button>
 			</a>
-			<br>
-			<br>
+			
 			<a href="StevenHany/main.html">
 				<button class="btn btn-lg btn-primary"> ستيفن هاني فتحي   </button>
 			</a>
-			<br>
-			<br>
+			
 			<a href="KarasVictor/main.html">
 				<button class="btn btn-lg btn-primary"> كاراس فيكتور زكي  </button>
 			</a>
-			<br>
-			<br>
+		
 			<a href="FeloKiroles/index.html">
 				<button class="btn btn-lg btn-primary"> فيلوباتير كيرلس سامي </button>
 			</a>
-			<br>
-			<br>
+			
 			<a href="PhilopaterMina/main.html">
 				<button class="btn btn-lg btn-primary"> فيلوباتير مينا  </button>
 			</a>
-			<br>
-			<br>
+			
 			<a href="AbanoubLuka/abanoub.html">
 				<button class="btn btn-lg btn-primary"> ابانوب لوقا ايليا </button>
 			</a>
-			<br>
-			<br>
+			
 			<a href="YoussefAdel/main page.html">
 				<button class="btn btn-lg btn-primary"> يوسف عادل يوسف </button>
 			</a>
-			<br>
-			<br>
+			
 			<a href="MarcoHany/main.html">
 				<button class="btn btn-lg btn-primary"> ماركو هاني</button>
 			</a>
-			<br>
-			<br>
+		
 			<a href="KevinFahmy/mainpage.html">
 				<button class="btn btn-lg btn-primary"> كيفين فهمي عادل</button>
 			</a>
-			<br>
-			<br>
+		
 			<a href="MinaEmad/main.html">
 				<button class="btn btn-lg btn-primary"> مينا عماد عطيه</button>
 			</a>
-			<br>
-			<br>
+		
 			<a href="ArsanyHany/Main.html">
 				<button class="btn btn-lg btn-primary"> ارثاني هاني </button>
 			</a>
-			<br>
-			<br>
+			
 			<a href="JiovanyPeter/main.HTML">
 				<button class="btn btn-lg btn-primary">  جيوفاني بيتر  </button>
 			</a>
-			<br>
-			<br>
+			
 			<a href="KirolesSafwat/KIROLOS .html">
 				<button class="btn btn-lg btn-primary">  كيرلس صفوت </button>
 			</a>
-			<br>
-			<br>
+			
 			<a href="MathewOsama/main.html">
 				<button class="btn btn-lg btn-primary"> ماثيو اسامة </button>
 			</a>
-			<br>
-			<br>
+			
 			<a href="PatrikBeshoy/main.html">
 				<button class="btn btn-lg btn-primary">  باتريك بيشوي</button>
 			</a>
-			<br>
-			<br>
+			
 			<a href="MarkMlak/mark.html">
 				<button class="btn btn-lg btn-primary">  مارك ملاك ميخائيل </button>
 			</a>
-			<br>
-			<br>
+			
 			<a href="AntoniousMalak/Antonious Malak.html">
 				<button class="btn btn-lg btn-primary"> انطونيوس ملاك ميخائيل </button>
 			</a>
-			<br>
-			<br>
+		
 			<a href="MarvinMichael/main.html">
 				<button class="btn btn-lg btn-primary"> مارفين مايكل </button>
 			</a>
-			<br>
-			<br>
+		
 			<a href="AndrewNabil/main.html">
 				<button class="btn btn-lg btn-primary"> اندرو نبيل </button>
 			</a>
-			<br>
-			<br>
+			
 			<a href="YoussefAmir/main.html">
 				<button class="btn btn-lg btn-primary"> يوسف امير يوسف </button>
 			</a>
-			<br>
-			<br>
+		
 			<a href="PatrickEmad/الصحفة الرئيسية.html">
 				<button class="btn btn-lg btn-primary"> باتريك عماد تادرس </button >
 			</a>
-			<br>
-			<br>
+		
 			<a href="MichaelWagdy/main page.html">
 				<button class="btn btn-lg btn-primary"> مايكل وجدي </button >
 			</a>
-			<br>
-			<br>
+			
 		</div>
 		<hr>
     </body>
