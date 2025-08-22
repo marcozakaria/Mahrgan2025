@@ -4,20 +4,24 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/x-icon" href="logo-up.jpg">
   <script>
-    function showAlert() {
-      alert("to turn en use chrome translator above or using google translate for best experience");
+    function enAlert() {
+      alert("to turn engilsh use chrome translator above or using google translate for best experience");
+    }
+    function searchAlert() {
+      alert("للبحث عن كلمه أضغط f3");
     }
   </script>
 </head>
 <body>
   <div class="navibar">
     <img src="logo-small.png"></img>
-    <a href="الرئيسيه.HTML"><button>الرئيسية</button></a>
-    <a href="عنا.html"><button>عنا</button></a>
-    <a href="أرشيف.html"><button>أرشيف</button></a>
-    <a href="معلومات مطوله.HTML"><button>معلومات</button></a>
-    <button onclick="showAlert()">en</button>
-    <img src="logo-small.png"></img>
+    <a href="الرئيسيه.html" title="الرئيسية"><button><img src="website-home-page-svgrepo-com.svg"></img></button> </a>
+    <a href="عنا.html" title="بيانات صانع الموقع"><button><img src="about-svgrepo-com.svg"></img></button></a>
+    <a href="أرشيف.html" title="أرشيف"><button><img src="download-archive-svgrepo-com.svg"></img></button></a>
+    <a href="معلومات .HTML" title="معلومات"><button><img src="information-svgrepo-com.svg"></img></button></a>
+    <button onclick="enAlert()" title="change language"><img src="language-svgrepo-com.svg"></img></button>
+    <button onclick="searchAlert()" title="البحث عن كلمه"><img src="search-globe-svgrepo-com (2).svg"></button>
+    <img src="logo-small.png"></img> 
   </div> 
 
   <br>
@@ -78,11 +82,10 @@
 
   <div class="footer">
     <br>
-    <img src="logo-big.png"></img>
+    <img src="mahragan-logo.png"></img>
     <br>
-    <h4>الموقع قيد الإنشاء، فقد يكون هناك بعض الأخطاء التقنية</h4>
     <h4>إذا كان هناك أي مشكلة أو رأي فقط اكتبها أسفل الرابط</h4>
-    <a href="https://forms.gle/CkHH611Q7WDxuY3b9">الرابط</a>
+    <a href="https://forms.gle/CkHH611Q7WDxuY3b9" title="الرابط">الرابط</a>
     <h4>تحت رعاية قداسة البابا تواضروس الثاني</h4>
   </div>
 </body>
